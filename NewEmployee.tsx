@@ -12,7 +12,6 @@ import CalendarInput from './CalendarInput';
 import SelectUnique from './SelectUnique';
 
 const NewEmployee: FC = (): JSX.Element => {
-  const [t] = useTranslation();
 
   const {
     onRequestsContainerClick,
@@ -48,14 +47,6 @@ const NewEmployee: FC = (): JSX.Element => {
       onSubmit={onSubmit}
       onClick={onRequestsContainerClick}
     >
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
       <SelectUnique
         label={t('requestsContainer.location')}
         child={<LocationList ref={onChangeLocation} />}
