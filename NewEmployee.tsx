@@ -50,6 +50,11 @@ const NewEmployee: FC = (): JSX.Element => {
       onClick={onRequestsContainerClick}
     >
       <div>DIV</div>
+      <div>DIV</div>
+      <div>DIV</div>
+      <div>DIV</div>
+      <div>DIV</div>
+      <div>DIV</div>
       <SelectUnique
         label={t('requestsContainer.location')}
         child={<LocationList ref={onChangeLocation} />}
