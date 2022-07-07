@@ -14,7 +14,6 @@ import SelectUnique from './SelectUnique';
 const NewEmployee: FC = (): JSX.Element => {
 
   const {
-    onSubmit,
     onRequestsContainerClick,
     setDataForSelects,
     getNotifiers,
