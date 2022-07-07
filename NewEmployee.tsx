@@ -51,26 +51,7 @@ const NewEmployee: FC = (): JSX.Element => {
         label={t('requestsContainer.location')}
         child={<LocationList ref={onChangeLocation} />}
       />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
+      <div>test</div>
 
       <Select
         label={t('requests.newEmployee.reason')}
