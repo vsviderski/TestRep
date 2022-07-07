@@ -54,6 +54,7 @@ const NewEmployee: FC = (): JSX.Element => {
         child={<LocationList ref={onChangeLocation} />}
       />
       <div>test</div>
+      <div>test</div>
 
       <Select
         label={t('requests.newEmployee.reason')}
