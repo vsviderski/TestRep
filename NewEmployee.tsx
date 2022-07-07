@@ -15,6 +15,7 @@ const NewEmployee: FC = (): JSX.Element => {
   const [t] = useTranslation();
 
   const {
+    onSubmit,
     onRequestsContainerClick,
     setDataForSelects,
     getNotifiers,
