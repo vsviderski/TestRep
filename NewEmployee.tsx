@@ -15,8 +15,6 @@ const NewEmployee: FC = (): JSX.Element => {
   const [t] = useTranslation();
 
   const {
-    onSubmit,
-    onRequestsContainerClick,
     setDataForSelects,
     getNotifiers,
     notifiersListRef,
@@ -53,9 +51,22 @@ const NewEmployee: FC = (): JSX.Element => {
         label={t('requestsContainer.location')}
         child={<LocationList ref={onChangeLocation} />}
       />
-          <div>test</div>
-      <div>test</div>
-      <div>test</div>
+      <SelectUnique
+        label={t('requestsContainer.location')}
+        child={<LocationList ref={onChangeLocation} />}
+      />
+      <SelectUnique
+        label={t('requestsContainer.location')}
+        child={<LocationList ref={onChangeLocation} />}
+      />
+      <SelectUnique
+        label={t('requestsContainer.location')}
+        child={<LocationList ref={onChangeLocation} />}
+      />
+      <SelectUnique
+        label={t('requestsContainer.location')}
+        child={<LocationList ref={onChangeLocation} />}
+      />
 
       <Select
         label={t('requests.newEmployee.reason')}
