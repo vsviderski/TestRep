@@ -56,6 +56,9 @@ const NewEmployee: FC = (): JSX.Element => {
           <div>test</div>
       <div>test</div>
       <div>test</div>
+      <div>test</div>
+      <div>test</div>
+      <div>test</div>
 
       <Select
         label={t('requests.newEmployee.reason')}
