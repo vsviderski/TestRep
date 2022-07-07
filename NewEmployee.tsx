@@ -16,6 +16,7 @@ const NewEmployee: FC = (): JSX.Element => {
 
   const {
     onSubmit,
+    onTest,
     onRequestsContainerClick,
     setDataForSelects,
     getNotifiers,
