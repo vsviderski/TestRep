@@ -49,19 +49,14 @@ const NewEmployee: FC = (): JSX.Element => {
       onSubmit={onSubmit}
       onClick={onRequestsContainerClick}
     >
-      <div>DIV</div>
+      <span>span</span>
+      <span>span</span>
+      <span>span</span>
       <SelectUnique
         label={t('requestsContainer.location')}
         child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
-      <SelectUnique
-        label={t('requestsContainer.location')}
-        child={<LocationList ref={onChangeLocation} />}
-      />
+        />
+      <span>span</span>
       <SelectUnique
         label={t('requestsContainer.location')}
         child={<LocationList ref={onChangeLocation} />}
